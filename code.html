@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Learn Basic of Python!</title>
+  </head>
+  <body>
+    <nav  id="navbar-example2" class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Tutorial</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Technology
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="machinelearning.html">Machine Learning</a></li>
+            <li><a class="dropdown-item" href="hadoop.html">Hadoop</a></li>
+            <li><a class="dropdown-item" href="cybersecurity.html">Cyber Security</a></li>
+            <li><a class="dropdown-item" href="IoT.html">IoT</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+       <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    <div class="mx-2">
+      <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+      <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</button>
+   </div>
+    </div>
+  </div>
+</nav>
+
+<!--Login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"> Please Login </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+           <label for="exampleInputEmail1" class="form-label">Email address</label>
+           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+           <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+       </div>
+   <div class="mb-3">
+     <label for="exampleInputPassword1" class="form-label">Password</label>
+     <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+    <div class="mb-3 form-check">
+     <input type="checkbox" class="form-check-input" id="exampleCheck1">
+     <label class="form-check-label" for="exampleCheck1">Check me out</label>
+   </div>
+  <button type="submit" class="btn btn-primary">Login</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Sign Up Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Please Sign Up</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <form>
+            <div class="mb-3">
+             <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+       <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+     <label for="exampleInputPassword1" class="form-label">Password</label>
+     <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3">
+     <label for="cexampleInputPassword1" class="form-label"> Confirm Password</label>
+     <input type="password" class="form-control" id="cexampleInputPassword1">
+  </div>
+ 
+  <button type="submit" class="btn btn-primary">Create Account</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container my-4">
+<h3 style="color:Orange;text-align:center;">Learn How To Code</h3><br>
+<p class="fw-normal lh-base">
+Do you want to learn to code but feel put off by the cost of coding classes? If you think computer science and learning to code might be your jam, but aren’t ready to spend money on getting the skills, this is the roundup for you.<br><br>
+If you want to really master coding skills, you’ll eventually want to dive into a more in-depth coding class option. But you can learn some of the basics, like HTML, CSS, and JavaScript, for free while you decide if you’re ready to take your development skills to the next level.<br><br>
+<h4>
+The Best Online Coding Websites and Programs to Learn to Code for Free
+</h4><br>
+<h5> 1. CODECADEMY</h5><br>
+Codecademy is an American online interactive platform that offers free coding classes in 12 different programming languages including Python (pandas-Python library, Beautiful Soup-Python Library), Java, Go, JavaScript (jQuery, AngularJS, React.js), Ruby (Ruby on Rails-Ruby framework), SQL, C++, C#, Swift, and Sass, as well as markup languages HTML and CSS. The site also offers a paid "Pro" option that gives users access to personalized learning plans, quizzes, and realistic projects.<br><br>
+Codecademy is committed to teaching people the skills they need to upgrade their careers. We aim to educate a richly diverse demographic of users with our product. And we know that in order to accomplish this, our team should reflect that rich diversity. We always seek transparency, thrive on feedback, value our teams and teamwork, love evolving and never forget it's people first.<br><br>
+This online learning platform teaches a wide range of specific coding languages, like JavaScript, SQL, and Python, as well as tech career paths focused on computer science, data science, machine learning, developer tools, and more.<br><br>
+<h3>Features of the Platform</h3><br>
+<b>Personalized learning plans</b>: Offers different Career Paths and Skill Paths to follow based on your goals and interests – e.g., Web Development, Data Science, and Computer Science.<br><br>
+<b>Quizzes</b>: Measure your progress at regular intervals and practice your skills.<br><br>
+<b>Community support</b>: Get help, collaborate, and share resources with other students in Codecademy’s forums. There are also virtual or in-person Codecademy Chapters that hold meetups.<br><br>
+<b>Programming personality</b> quiz to help you understand which careers, languages, and courses suit your personal interests and strengths best.<br><br>
+<b>Streaks</b>: These offer a way to gamify your learning and keep you motivated: your Streak number on your dashboard will go up by one every day that you make progress on Codecademy.<br><br>
+<h4> Codecademy’s Ease of Use</h4><br>
+Overall, Codecademy’s user interface is very engaging, clean, and easy to navigate, without being too busy or overwhelming. You can pretty much jump right in and know what to do, so there’s a minimal learning curve! The catalog of courses also has a unique layout that’s fun and different, without being confusing.
+</p><br>
+<h4 style="color:Violet;">2.Udemy</h4><br>
+<p class="fw-normal lh-base">
+Udemy bills itself as an online learning marketplace, hosting 130,000+ user-created courses on all kinds of topics (including over 2,000 coding-related classes). While some of Udemy’s offerings are paid (costing $20-$200 per course), there are plenty of free coding classes as well, including some shorter Tech 101-type courses that teach code for beginners.<br><br>
+Udemy is an online learning and teaching marketplace with over 183000 courses and 40 million students. Learn programming, marketing, data science and more.<br>
+Udemy is a platform that allows instructors to build online courses on their preferred topics. Using Udemy's course development tools, they can upload videos, PowerPoint presentations, PDFs, audio, ZIP files and live classes to create courses. Instructors can also engage and interact with users via online discussion boards.<br><br>
+<h4 style="color:green;">3.GeeksForGeeks</h4><br>
+With the idea of imparting programming knowledge, Mr. Sandeep Jain, an IIT Roorkee alumnus started a dream, GeeksforGeeks. Whether programming excites you or you feel stifled, wondering how to prepare for interview questions or how to ace data structures and algorithms, GeeksforGeeks is a one-stop solution.<br><br>
+GeeksforGeeks.org was created with a goal in mind to provide well written, well thought and well explained solutions for selected questions. The core team of five super geeks constituting of technology lovers and computer science enthusiasts have been constantly working in this direction .<br><br>
+The content on GeeksforGeeks has been divided into various categories to make it easily accessible for the users. Whether you want to learn algorithms, data structures or it is the programming language on its own which interests you, GeeksforGeeks has covered everything! Even if you are looking for Interview preparation material, GeeksforGeeks has a vast set of company-wise interview experiences to learn from, that gives a user insights into the recruitment procedure of a company. Adding to this, it serves as a perfect platform for users to share their knowledge via contribute option.<br><br>
+Because of all of these features, GeeksforGeeks has established itself as more than just a programming portal. It has become a haven for Geeks, the ‘all in one’ site for Tech lovers and a perfect place for coders to interact and discuss their ideas and knowledge.<br><br><br>
+<h4 style ="color:lightgreen;">4.W3Schools</h4><br>
+W3Schools is a freemium educational website for learning coding online. Developed in 1998, its name is derived from the World Wide Web.[1][2] W3Schools offers courses covering all aspects of web development.It is run by Refsnes Data in Norway.<br>
+We create simplified and interactive learning experiences.<br>
+Learning web development should be easy to understand and available for everyone, everywhere!<br><br>
+<h4>Easy Learning
+</h4>
+W3Schools has focus on simplicity.<br>
+W3Schools practice easy learning.<br>
+W3Schools uses simple code examples and simple illustrations of how to use it.<br>
+W3Schools' tutorials start from basic level and move all the way up to professional references.<br><br>
+<h6>
+w3schools.io is a free learning website, tutorials and examples related to Html,CSS,Markdown,YAML, javascript. The goal of this site to create a useful education content for developers. All the courses,posts are free to learn.<br>
+W3schools.io is separate website not related with any other website with same name.
+</h6><br><br>
+<h4>5. KHAN ACADEMY</h4><br>
+Khan Academy is a non-profit educational platform dedicated to providing FREE online educational tools. That includes a robust selection of coding classes.<br>
+Khan Academy is an American non-profit educational organization created in 2008 by Sal Khan, with the goal of creating a set of online tools that help educate students. The organization produces short lessons in the form of videos.Its website also includes supplementary practice exercises and materials for educators. All resources are available for free to users of the website and application.<br><br>
+Khan Academy's website aims to provide a free personalized learning experience, that are built on the videos, hosted on YouTube. The website is meant to be used as a supplement to its videos, because it includes other features such as progress tracking, practice exercises, and teaching tools. The material can also be accessed through mobile applications.<br>
+Khan Academy videos have been translated into several languages, with close to 20,000 subtitle translations available.<br><br>
+<h4 style="color:darkblue;">6.Programiz.Com</h4><br>
+<h6>Our mission is to help users learn programming more easily.</h6><br>
+We are a small team of passionate developers constantly working to create programming resources that's accurate and easier to understand.<br>
+Programiz.com is a free website to learn programming. Currently we offer tutorials on C and Python programming for newbies.
+</p>
+</div>
+
+
+<footer class="container my-4">
+    <p class="float-end"><button type="button" class="btn btn-outline-dark"><a  style="text-decoration:none;" href="#">Back to top</a></button></p>
+    <p>© 2021–2022 Web Developer, Inc..<a href="#">Privacy</a> · <a href="#">Terms</a></p>
+  </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
