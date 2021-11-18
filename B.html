@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="code.css">
+    <title>Bootstrap And Template!</title>
+  </head>
+  <body>
+    <nav  id="navbar-example2" class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Web Tutorial</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Technology
+          </a>
+         
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="machinelearning.html">Machine Learning</a></li>
+            <li><a class="dropdown-item" href="hadoop.html">Hadoop</a></li>
+            <li><a class="dropdown-item" href="cybersecurity.html">Cyber Security</a></li>
+            <li><a class="dropdown-item" href="IoT.html">IoT</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+       <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+     <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    <div class="mx-2">
+      <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+      <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</button>
+   </div>
+    </div>
+  </div>
+</nav>
+
+<!--Login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"> Please Login </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+           <label for="exampleInputEmail1" class="form-label">Email address</label>
+           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+           <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+       </div>
+   <div class="mb-3">
+     <label for="exampleInputPassword1" class="form-label">Password</label>
+     <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+    <div class="mb-3 form-check">
+     <input type="checkbox" class="form-check-input" id="exampleCheck1">
+     <label class="form-check-label" for="exampleCheck1">Check me out</label>
+   </div>
+  <button type="submit" class="btn btn-primary">Login</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Sign Up Modal -->
+
+<!--Sign Up Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Please Sign Up</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <form>
+            <div class="mb-3">
+             <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+       <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+     <label for="exampleInputPassword1" class="form-label">Password</label>
+     <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3">
+     <label for="cexampleInputPassword1" class="form-label"> Confirm Password</label>
+     <input type="password" class="form-control" id="cexampleInputPassword1">
+  </div>
+ 
+  <button type="submit" class="btn btn-primary">Create Account</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bd-example">
+<div id="cont1"><img  class=" img-fluid" width=100%  src="tech.jpg">
+<div class="center"><h2 style="color:white;">What is Bootstrap and what<br>are Bootstrap Templates?</h2></div>
+</div>
+<div class="container my-4"> <p class="fw-normal lh-base"> Likely the top reason to use Bootstrap is that it’s a responsive framework. When your website has been outfitted with a responsive design, it will automatically appear the same and work very well when accessed on any type of device. Without a responsive design, anyone who attempts to reach your website from a smartphone or tablet will be provided with the desktop version of the site, which will require extensive scrolling to browse.<br><br>
+
+Most smartphone users will automatically exit a website that isn’t outfitted with a responsive design, which is why it’s highly recommended that your website is responsive. This type of design is able to automatically scale the site content and elements to perfectly match the screen size of the device the user is accessing it from. The main goal of implementing this design is to make sure that all of your users are able to avoid scrolling, resizing, panning, or zooming when trying to navigate your website. A responsive design is:<br>
+<ul>
+<li>Cost-effective since you won’t need to maintain two separate websites for mobile and desktop</li><br>
+<li>Better user experience, which increases the potential for enhanced conversion rates</li><br>
+<li>Allows website management to be more efficient since any changes you make to the site are automatically made to all devices</li>
+</ul><br>
+<h4>The Pros and Cons of Bootstrap Templates
+</h4><br>
+Before you start using a Bootstrap template, keep in mind that there are numerous pros and cons that come with doing so, which you should be aware of. The various benefits of using a Bootstrap template during development include:<br><br>
+<ul>
+<li>Some of the components are already made from the beginning with this framework, which can save you both time and money when developing a website</li><br>
+<li>Bootstrap templates help to enable a certain level of design standards that can apply to the entirety of your design team</li><br>
+<li>Bootstrap templates provide you with a simple way to create and develop a website with an aesthetically appealing user interface</li><br>
+<li>These templates are already responsive, which means that no extra work needs to be done by you to make them responsive</li><br>
+</ul>
+While there are numerous benefits that come with using Bootstrap during development, there are also several issues that you should be aware of:<br><br>
+<ul>
+<li>Many site owners and developers will use the same theme or template for their websites, which means that there’s a possibility your website won’t be as unique as you want it to be</li>
+<li>If the above issue applies, it’s recommended that you learn more about how to implement CSS and HTML coding into your website, which will give you the ability to alter aspects of the site like the colors and images</li>
+<li>The files that are created by Bootstrap can be relatively heavy due to their large size, which can lead to slow load times for the end-user</li>
+</ul><br>
+In the event that your load times are slow once you’ve implemented Bootstrap into your development project, there are many tools available that assist with compression. When elements on your website are compressed, load times should be significantly lessened. If you pair your compression efforts with other strategies for reducing load times, you should be able to mitigate one of the more substantial problems that come with using Bootstrap for development.<br><br>
+<h4>Two Different Types of Bootstrap Templates and Themes</h4><br>
+There are two different types of Bootstrap templates and themes that you can use during development. The one that you choose depends on your programming background as well as what you want to do with your website. It’s important to identify exactly what features are most important to you when creating a website. Once you have identified the features that are important to you, it’s likely that you’ll find it easier to select the Bootstrap template or theme that’s right for your website.<br><br>
+<h5>Themes That Only Modify Style</h5><br>
+Likely the most basic types of Bootstrap themes available to you are ones that only modify the style of a website. The only thing these themes do is add a new look and feel to the current elements of Bootstrap. For instance, all of the buttons on your website will use different colors that adhere to a consistent style put forth by the theme. The shadows and bevels can also be altered within the current Bootstrap framework.<br>
+If you like the framework but want to make some cosmetic changes to it, you should be able to do so with these types of themes. Among the best aspects of opting for this kind of Bootstrap theme is that it’s comprised entirely of a standard CSS file that can be readily applied to a current Bootstrap project. Once you have downloaded and applied the file, your project will be provided with a distinct appearance. These themes eliminate the need to understand coding.<br><br>
+<h5>Themes That Add New Components and Page Layouts</h5><br><br>
+There are some Bootstrap themes that are centered around providing developers with new components alongside different page layouts. This specific type of theme is typically used by developers who don’t have the ability or inclination to spend a substantial amount of time working on the site design and front-end work. If you want to obtain a beautiful and easy-to-use website but don’t have time to handle the coding associated with front-end development, these types of Bootstrap themes might be ideal for you.<br><br>
+Since most of the page elements are already created for you, there’s not much work for you to do with this type of theme. This particular type of Bootstrap theme is most suited to be paired with some kind of back-end technology that you’re currently using. In the event that you decide to use programming languages to assist with development, it’s highly recommended that you pair it with a framework that makes the language easy to use.<br>
+For instance, Ruby on Rails provides developers and site owners with a framework that will allow their work with the Ruby programming language to be much more efficient and straightforward. If you don’t like to spend much time working with coding and programming languages, having a framework to assist with development can be very beneficial. Some of the top frameworks available for you to select from include AngularJS, Django, Flask, and Express.js, all of which are designed to be used with specific programming languages.<br><br>
+Bootstrap is a highly useful framework that makes it easier to develop web pages. When you’re attempting to build a website for your brand, having a framework on hand that should lessen the amount of time it takes to build a website will almost certainly pay dividends when you’re attempting to complete the design and take your website online.<br><br>
+The main benefit of using Bootstrap as your go-to framework is that it provides design templates for navigation, typography, buttons, forms, and other elements of the interface, which means that you don’t need to do as much work when creating the design for your website. When you use Bootstrap for a development project, the framework is 100 percent responsive, which is perfect when you’re trying to make sure that the website is able to adequately accommodate all of your customers’ devices.<br>
+In 2018, more than 52 percent of all internet traffic occurred on mobile devices. If you want your website to be successful and bring in as much traffic as possible, it’s important that the site is responsive. With a clear understanding of Bootstrap and the different types of templates available to you, it should be easy for you to find the template that suits your specific needs.
+</p></div>
+</div><br>
+
+<footer class="container my-4">
+    <p class="float-end"><button type="button" class="btn btn-outline-dark"><a  style="text-decoration:none;" href="#">Back to top</a></button></p>
+    <p id="cont">Copyright© 2021–2022 All Rights Reserved Web Developer, Inc..<a  href="#">Privacy</a> · <a href="#">Terms</a></p>
+  </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
